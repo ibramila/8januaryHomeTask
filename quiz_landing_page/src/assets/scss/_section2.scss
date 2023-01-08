@@ -1,0 +1,75 @@
+.sect2 {
+    width: 100%;
+    background: #1D4645;
+
+    .section2 {
+        padding: 70px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        h1 {
+            text-transform: capitalize;
+            font-weight: 700;
+            font-size: 66px;
+            line-height: 64px;
+            color: #FFFFFF;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            position: relative;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 20px;
+                border-radius: 8px;
+                background-color: #FFFFFF;
+
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    padding: 0 30px 30px 30px;
+
+                    hr {
+                        background-color: lightgrey;
+                    }
+
+                    span {
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #1D4645;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 32px;
+                        color: #333333;
+                    }
+                }
+
+            }
+
+            .card1 {
+                position: relative;
+                top: 100px;
+            }
+
+            .card2 {
+                position: relative;
+                top: 50px;
+            }
+
+            // .card3 {}
+
+        }
+
+    }
+}

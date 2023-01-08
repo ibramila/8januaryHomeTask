@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+nav {
+    width: 100%;
+    top: 0;
+
+    .nav {
+        padding: 20px 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-weight: 400;
+
+        .middle_side {
+            display: flex;
+            gap: 50px;
+        }
+
+        .contact {
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px 30px;
+        }
+    }
+}
