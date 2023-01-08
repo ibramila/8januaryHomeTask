@@ -7,7 +7,7 @@
 
         .section7 {
             position: relative;
-            padding: 100px 0;
+            padding: 100px 0 300px 0;
 
             .heading {
                 display: flex;
@@ -46,20 +46,36 @@
                 position: absolute;
                 background-color: white;
                 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-                border: 8px;
+                border-radius: 8px;
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
                 padding: 50px;
                 width: 50%;
-                // bottom: 200px;
-                left: 250px;
+                left: 290px;
+                bottom: -250px;
 
                 input,
                 textarea {
                     border-radius: 8px;
                     padding: 10px;
                     border: 1px solid lightgray;
+                }
+
+                button {
+                    text-align: center;
+                    background: #1D4645;
+                    border-radius: 4px;
+                    padding: 10px 20px;
+                    text-transform: uppercase;
+                    color: white;
+                    width: 30%;
+                    margin-left: 150px;
+                    border: none;
+
+                    &:hover{
+                        background-color: black;
+                    }
                 }
             }
         }
