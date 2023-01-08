@@ -1,24 +1,13 @@
-.sect2 {
+.sect3 {
     width: 100%;
-    background: #1D4645;
+    background-color: white;
 
     .container {
-        margin: 0 auto;
         width: 1140px;
+        margin: 0 auto;
 
-        .section2 {
+        .section3 {
             padding: 70px 0px;
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-
-            h1 {
-                text-transform: capitalize;
-                font-weight: 700;
-                font-size: 66px;
-                line-height: 64px;
-                color: #FFFFFF;
-            }
 
             .cards {
                 display: flex;

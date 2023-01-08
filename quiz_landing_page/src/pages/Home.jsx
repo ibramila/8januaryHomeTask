@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Section1 from '../components/Section1';
 import Section2 from '../components/Section2';
+import Section3 from '../components/Section3';
 
 function Home() {
     return (
@@ -10,7 +11,8 @@ function Home() {
                 <title>Home</title>
             </Helmet>
             <Section1 />
-            <Section2/>
+            <Section2 />
+            <Section3 />
         </HelmetProvider>
     )
 }
