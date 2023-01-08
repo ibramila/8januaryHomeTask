@@ -1,0 +1,67 @@
+.sect7 {
+    width: 100%;
+
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+
+        .section7 {
+            position: relative;
+            padding: 100px 0;
+
+            .heading {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                align-items: center;
+                justify-content: center;
+
+                span {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 32px;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                    color: #1D4645;
+                }
+
+                div {
+                    font-weight: 700;
+                    font-size: 66px;
+                    line-height: 64px;
+                    text-align: center;
+                    color: #1D4645;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #5F5F5F;
+                }
+            }
+
+            form {
+                position: absolute;
+                background-color: white;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                border: 8px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 50px;
+                width: 50%;
+                // bottom: 200px;
+                left: 250px;
+
+                input,
+                textarea {
+                    border-radius: 8px;
+                    padding: 10px;
+                    border: 1px solid lightgray;
+                }
+            }
+        }
+    }
+}
