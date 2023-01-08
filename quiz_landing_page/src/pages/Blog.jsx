@@ -7,7 +7,6 @@ function Blog() {
       <Helmet>
         <title>Blog</title>
       </Helmet>
-
     </HelmetProvider>
   )
 }
